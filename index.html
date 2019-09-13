@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- SCRIPT FOR INCLUDING HTML SNIPPETS -->
+		<script src="include.js"></script>
+		<div include-html="stylelinks.html"></div>
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+		<title> Girls Who Code </title>
+
+	</head>
+
+	<!--THIS IS WHERE THE PAGE ELEMENTS START-->
+	<body>
+		<div id="header">
+		  <a hef="/">
+		    <img src="logo.png" class="logo"/>
+		  </a>
+		  <a class="menu-button" href="/contact">Contact Us</a>
+		  <a class="menu-button" href="/lessons">Lessons</a>
+		  <a class="menu-button" href="/events">Events</a>
+		  <a class="menu-button active" href="/">Home</a>
+		</div>
+		<div id="blurb">
+			<table height="100%" class="blurb-table">
+					<tr>
+						<td width="47%">
+							<div class="blurb-text">Closing the <span class="selected-word">gender gap</span> in technology, one <span class="selected-word">girl</span> at a time.</div>
+							<br/><br/><br/><a class="blurb-link" href=/about>Read More</a>
+						</td>
+						<td width="53%" class="blurb-photo"><br/><br/><br/><br/><br/><br/><img src="girl.png" width="100%"></td>
+					</tr>
+			</table>
+		</div><br><br><br>
+		<div id="blurb-stats">
+			<div class="stat-table">
+				<div class="stat-bubble one">
+					<span class="stat-percentage"></span>
+					<span class="stat-caption"></span>
+				</div>
+				<div class="stat-bubble two">
+					<span class="stat-percentage"></span>
+					<span class="stat-caption"></span>
+				</div>
+				<div class="stat-bubble three">
+					<span class="stat-percentage"></span>
+					<span class="stat-caption"></span>
+				</div>
+			</div>
+		</div>
+		<footer include-html="footer.html"></footer>
+	</body>
+
+	<script>
+	includeHTML();
+	</script>
+</html>

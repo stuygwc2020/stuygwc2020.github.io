@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  color:#414443;
+  font-family: 'Blinker', sans-serif;
+}
+
+.background {
+  width:100%;
+  background-color:#363636;
+}

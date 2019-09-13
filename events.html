@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- SCRIPT FOR INCLUDING HTML SNIPPETS -->
+		<script src="include.js"></script>
+		<div include-html="stylelinks.html"></div>
+		<title> Girls Who Code </title>
+	</head>
+
+	<!--THIS IS WHERE THE PAGE ELEMENTS START-->
+	<body>
+		<div id="header">
+		  <a hef="/">
+		    <img src="logo.png" class="logo"/>
+		  </a>
+		  <a class="menu-button" href="/contact">Contact Us</a>
+		  <a class="menu-button" href="/lessons">Lessons</a>
+		  <a class="menu-button active" href="/events">Events</a>
+		  <a class="menu-button" href="/">Home</a>
+		</div>
+		<h1> About Us </h1>
+		<footer include-html="footer.html"></footer>
+	</body>
+
+	<!--MUST BE RUN AT BOTTOM OF PAGE-->
+	<script>
+	includeHTML();
+	</script>
+</html>

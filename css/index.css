@@ -1,0 +1,53 @@
+#blurb{
+  background-color: white;
+  margin:0;
+  padding:10%;
+  height:70vh;
+  font-size:
+}
+
+#blurb{
+  margin:0;
+  height:75vh;
+  padding:5%;
+}
+
+.blurb-table{
+  padding:0;
+}
+
+.blurb-photo{
+  padding-top:7%;
+  transform:scale(1.15);
+}
+
+.blurb-text{
+  padding-left:11.5%;
+  padding-right:2%;
+  vertical-align: top;
+  line-height:130%;
+  font-weight:700;
+  font-size:78px;
+  padding-bottom:0;
+  padding-top:0;
+}
+
+.selected-word{
+  color:#DA4949;
+}
+
+.blurb-link{
+  margin-left:31.5%;
+  padding:2% 5% 2% 5%;
+  font-size:20px;
+  text-decoration:none;
+  color:white;
+  font-weight:500;
+  border-radius:24px;
+  background-color:#78CDD5;
+
+}
+
+.blurb-link:hover{
+  background-color:#69B6BD;
+}
