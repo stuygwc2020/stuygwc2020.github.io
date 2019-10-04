@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 10%;
+  padding: 0;
   color:#414443;
   font-family: 'Blinker', sans-serif;
 }
@@ -13,7 +13,7 @@ body {
 .content {
   padding-left: 20%;
   padding-right: 20%;
-  padding-top: 10%;
+  padding-top: 5%;
 }
 
 .content h1{
