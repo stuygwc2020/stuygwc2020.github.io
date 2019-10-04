@@ -76,14 +76,24 @@
   margin-bottom:0;
 }
 
-#mailinglist h2{
-  color:cornflowerblue;
+.shortlinks a{
+  text-decoration:none;
+  color:white;
+  padding:5px;
 }
 
-#gotoevents h2{
-  color:cadetblue;
+.shortlinks a:hover{
+  opacity:0.7;
 }
 
-#gotolessons h2{
-  color:crimson;
+#mailinglist a{
+  background-color:cornflowerblue;
+}
+
+#gotoevents a{
+  background-color:cadetblue;
+}
+
+#gotolessons a{
+  background-color:crimson;
 }
