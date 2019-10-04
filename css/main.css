@@ -16,6 +16,12 @@ body {
   padding-top: 5%;
 }
 
+.content1 {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1%;
+}
+
 .content h1{
   color:#bbb;
   font-size:60px;
