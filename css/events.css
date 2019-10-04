@@ -1,0 +1,17 @@
+#signup {
+  display:block;
+}
+
+#blog {
+  display:none;
+}
+
+.eventbtn {
+  margin-left:31.5%;
+  padding:2% 5% 2% 5%;
+  font-size:20px;
+  text-decoration:none;
+  color:white;
+  font-weight:500;
+  background-color:#78CDD5;
+}
