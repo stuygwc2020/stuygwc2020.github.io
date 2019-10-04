@@ -32,8 +32,9 @@
 
 .eventpost {
   height: 50%;
-  margin-top:25%;
-  width:100%;
   background-color:#eee;
   color:#555;
+  padding:5%;
+  size:60px;
+  text-align:center;
 }
