@@ -1,9 +1,11 @@
 #signup {
   display:block;
+  height:80%;
 }
 
 #blog {
   display:none !important;
+  height:80%;
 }
 
 .eventbtn {
