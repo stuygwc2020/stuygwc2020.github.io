@@ -3,6 +3,7 @@ body {
   padding: 0;
   color:#414443;
   font-family: 'Blinker', sans-serif;
+  height:100vh;
 }
 
 .background {
@@ -13,8 +14,8 @@ body {
 .content {
   padding-left: 15%;
   padding-right: 15%;
+  height:90%;
 }
-
 
 .content h1{
   color:#bbb;
