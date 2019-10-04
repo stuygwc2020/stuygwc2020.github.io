@@ -39,8 +39,8 @@
 	includeHTML();
 
 	function dispSignups(){
-		document.getElementById("signup").style.display = "block";
-		document.getElementById("blog").style.display = "none";
+		document.getElementById("signup").style.display = "block !important";
+		document.getElementById("blog").style.display = "none !important";
 		var x = document.getElementById("btnsign");
 		x.style.color = "white";
 		x.style.background = "#78CDD5";
@@ -50,8 +50,8 @@
 	}
 
 	function dispBlog(){
-		document.getElementById("signup").style.display = "none";
-		document.getElementById("blog").style.display = "block";
+		document.getElementById("signup").style.display = "none !important";
+		document.getElementById("blog").style.display = "block !important";
 		var x = document.getElementById("btnblog");
 		x.style.color = "white";
 		x.style.background = "#78CDD5";
@@ -59,6 +59,6 @@
 		y.style.color="#888";
 		y.style.background="whitesmoke";
 	}
-	
+
 	</script>
 </html>
