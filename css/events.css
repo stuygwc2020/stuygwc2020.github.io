@@ -27,3 +27,11 @@
   background-color:whitesmoke;
   color:#999;
 }
+
+.eventpost {
+  height: 50%;
+  margin-bottom:25%;
+  width:60%
+  background-color:#ccc;
+  color:#555;
+}
