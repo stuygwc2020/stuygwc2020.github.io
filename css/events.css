@@ -7,11 +7,15 @@
 }
 
 .eventbtn {
-  margin-left:31.5%;
-  padding:2% 5% 2% 5%;
-  font-size:20px;
+  padding:1.25% 2% 1.25% 2%;
+  font-size:15px;
   text-decoration:none;
-  font-weight:500;
+  font-weight:normal;
+  border: none;
+  margin-left:1%;
+  margin-right:1%;
+  width:13%;
+  border-radius:24px;
 }
 
 #btnsign {
