@@ -56,3 +56,20 @@
 .spec_word{
   color: #414443;
 }
+
+.linkholder{
+  width:100%;
+  height:35%;
+}
+
+.shortlinks{
+  width:25%;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  border:2px solid #ccc;
+}
+
+.shortlinks h2{
+  margin-top:0;
+  margin-bottom:0;
+}
