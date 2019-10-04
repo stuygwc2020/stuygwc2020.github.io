@@ -21,7 +21,15 @@
 		<div class="content">
 			<center>
 				<h1> Events </h1>
+				<button onclick="dispSignups()">Signups</button>
+				<button onclick="dispBlog()">Blog</button>
 			</center>
+			<div id="signup">
+				Signups!
+			</div>
+			<div id="blog">
+				Our Blog!
+			</div>
 		</div>
 		<footer include-html="event_footer.html"></footer>
 	</body>
@@ -29,5 +37,15 @@
 	<!--MUST BE RUN AT BOTTOM OF PAGE-->
 	<script>
 	includeHTML();
+
+	function dispSignups(){
+		document.getElementById("signup").style.display = "block";
+		document.getElementById("blog").style.display = "none";
+	}
+
+	function dispBlog(){
+		document.getElementById("signup").style.display = "none";
+		document.getElementById("blog").style.display = "block";
+	}
 	</script>
 </html>
