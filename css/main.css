@@ -15,6 +15,12 @@ body {
   padding-right: 20%;
 }
 
+.content1 {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 1%;
+}
+
 .content h1{
   color:#bbb;
   font-size:60px;
