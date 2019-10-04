@@ -9,3 +9,14 @@ body {
   width:100%;
   background-color:#363636;
 }
+
+.content {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+}
+
+.content h1{
+  color:#bbb;
+  font-size:60px;
+}
