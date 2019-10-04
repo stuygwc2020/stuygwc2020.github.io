@@ -41,11 +41,24 @@
 	function dispSignups(){
 		document.getElementById("signup").style.display = "block";
 		document.getElementById("blog").style.display = "none";
+		var x = document.getElementById("btnsign");
+		x.style.color = "white";
+		x.style.background = "#78CDD5";
+		var y = document.getElementById("btnblog");
+		y.style.color="#888";
+		y.style.background="whitesmoke";
 	}
 
 	function dispBlog(){
 		document.getElementById("signup").style.display = "none";
 		document.getElementById("blog").style.display = "block";
+		var x = document.getElementById("btnblog");
+		x.style.color = "white";
+		x.style.background = "#78CDD5";
+		var y = document.getElementById("btnsign");
+		y.style.color="#888";
+		y.style.background="whitesmoke";
 	}
+	
 	</script>
 </html>
