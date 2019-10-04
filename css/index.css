@@ -63,16 +63,13 @@
 }
 
 .shortlinks{
-  width:24%;
+  width:18%;
   margin-left:2.5%;
   margin-right:2.5%;
   border:2px solid #ddd;
   display:inline-block;
   font-weight:normal;
-  padding-top:5%;
-  padding-bottom:5%;
-  padding-left:10%;
-  padding-right:10%;
+  padding: 2% 3%;
 }
 
 .shortlinks h2{
@@ -83,7 +80,7 @@
 .shortlinks a{
   text-decoration:none;
   color:white;
-  padding:8px;
+  padding:6px 16px;
 }
 
 .shortlinks a:hover{
@@ -91,13 +88,25 @@
 }
 
 #mailinglist a{
-  background-color:mediumseagreen;
+  background-color:cadetblue;
+}
+
+#mailinglist h2{
+  color:cadetblue;
 }
 
 #gotoevents a{
-  background-color:royalblue;
+  background-color:cornflowerblue;
+}
+
+#gotoevents h2{
+  color:cornflowerblue;
 }
 
 #gotolessons a{
   background-color:crimson;
+}
+
+#gotolessons h2{
+  color:crimson;
 }
