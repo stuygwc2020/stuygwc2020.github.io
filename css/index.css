@@ -36,6 +36,7 @@
   color:#DA4949;
 }
 
+
 .blurb-link{
   margin-left:31.5%;
   padding:2% 5% 2% 5%;
@@ -50,4 +51,8 @@
 
 .blurb-link:hover{
   background-color:#69B6BD;
+}
+
+.spec_word{
+  color: #414443;
 }
