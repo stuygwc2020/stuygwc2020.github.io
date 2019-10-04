@@ -69,7 +69,10 @@
   border:2px solid #ddd;
   display:inline-block;
   font-weight:normal;
-  padding:5%;
+  padding-top:5%;
+  padding-bottom:5%;
+  padding-left:10%;
+  padding-right:10%;
 }
 
 .shortlinks h2{
@@ -80,7 +83,7 @@
 .shortlinks a{
   text-decoration:none;
   color:white;
-  padding:5px;
+  padding:8px;
 }
 
 .shortlinks a:hover{
@@ -88,11 +91,11 @@
 }
 
 #mailinglist a{
-  background-color:cornflowerblue;
+  background-color:mediumseagreen;
 }
 
 #gotoevents a{
-  background-color:cadetblue;
+  background-color:royalblue;
 }
 
 #gotolessons a{
