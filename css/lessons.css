@@ -13,7 +13,8 @@
 .lessonpost h1{
   color:#56b6c4;
   font-size:40px;
-  font-weight:600;
+  font-weight:700;
+  margin-top:0;
 }
 
 .lessonpost hr {
@@ -22,4 +23,11 @@
 }
 
 .lessonpost p {
+  margin-left:5%;
+  margin-right:5%;
+}
+
+.lessonpost #date{
+  font-style:italic;
+  color:#aaa;
 }
