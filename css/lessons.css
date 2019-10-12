@@ -1,8 +1,26 @@
 .lessonpost {
   height: 50%;
-  background-color:#eee;
   color:#555;
   padding:5%;
   size:60px;
   text-align:center;
+  border:1px solid #ddd;
+  font-weight:normal;
+  background-color: rgb(250, 250, 250);
+  box-shadow: 5px 5px #eee;
+}
+
+.lessonpost h1{
+}
+
+.lessonpost hr {
+
+}
+
+.lessonpost p {
+
+}
+
+.lessonpost a {
+  text-decoration: none;
 }
