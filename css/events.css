@@ -38,3 +38,15 @@
   size:60px;
   text-align:center;
 }
+
+.blogpost h1{
+  color:#555;
+}
+
+.blogpost hr{
+  width: 1px solid #ddd;
+}
+
+.blogpost img {
+  height: 50%;
+}
