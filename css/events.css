@@ -50,4 +50,5 @@
 
 .blogpost img {
   height: 30vh;
+  image-orientation: from-image;
 }
